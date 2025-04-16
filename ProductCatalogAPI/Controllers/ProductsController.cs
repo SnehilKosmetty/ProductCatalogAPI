@@ -15,7 +15,7 @@ namespace ProductCatalogAPI.Controllers
     {
         private readonly IProductService _productService;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService  productService)
         {
             _productService = productService;
         }
